@@ -1,0 +1,25 @@
+.fl-row-jobapply{
+    margin: auto;
+    width: 48% !important;
+}
+.entry-title-apply{
+    font-family: -webkit-pictograph;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.table {
+    margin: auto;
+    width: 100%;
+    text-align: left;
+}
+tr {
+    border-bottom: 1px solid #eee;
+}
+.width{
+    width: 40%;
+}
+.input{
+    height: 30px;
+    width: 280px;
+
+}

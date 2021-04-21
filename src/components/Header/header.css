@@ -1,0 +1,115 @@
+.header-page {
+    min-height: 91vh;
+    background-color: #fafafa;
+    background-image: url("../Images/logo.jpg");
+    background-size: cover;
+
+}
+.custom-header {
+    position: relative;
+
+}
+
+.custom-header-media {
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+    object-fit: cover;
+    width: 100%;
+    max-width: 1000%;
+    min-height: 100%;
+
+
+}
+
+.custom-header-media img {
+    height: 100%;
+    left: 0;
+    object-fit: cover;
+    top: 0;
+    transform: none;
+    width: 100%;
+}
+
+
+div {
+    display: block;
+}
+
+body{
+    color: #333;
+    font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.66;
+    background-color: #f8f9fa!important;
+}
+
+.site-branding {
+    top: 36rem;
+    padding: 1em 0;
+    position: relative;
+    transition: margin-bottom 0.2s;
+    z-index: 3;
+}
+.wrap {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
+    padding-left: 2em;
+    padding-right: 2em;
+    position: relative;
+}
+
+.custom-logo-link {
+    display: inline-block;
+    padding-right: 1em;
+    vertical-align: middle;
+    width: auto;
+    margin-left: -100px;
+}
+.custom-logo-link img {
+    display: inline-block;
+    max-height: 80px;
+    width: auto;
+}
+
+.site-branding-text {
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+h1{
+    padding-top: 0;
+}
+
+.site-title {
+    color: #222;
+    opacity: 1;
+    text-transform: uppercase;
+    font-family: inherit;
+
+}
+
+.site-title a{
+    color: #ffffff;
+    margin-left: 20px;
+}
+
+.site-description {
+    color: #fff;
+    opacity: 0.8;
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+
+p {
+    margin: 0 0 1.5em;
+    padding: 0;
+    marginLeft: "20px";
+    font-size: 18px;
+}

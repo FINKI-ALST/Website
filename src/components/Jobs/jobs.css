@@ -1,0 +1,51 @@
+.table {
+    margin: auto;
+    width: 70% !important;
+}
+.fl-row-job{
+    margin: auto;
+    width: 48% !important;
+}
+.entry-title{
+    font-family: -webkit-pictograph;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.title{
+    font-size: 20px;
+}
+.info{
+    padding-bottom: 271px;
+}
+.skills{
+    font-size: 15px;
+}
+.bitcoin{
+    color: black;
+}
+.angular{
+    color: black;
+}
+.offer{
+    font-size: 15px;
+}
+.apply{
+    color: black;
+    padding-left: -22px;
+
+}
+.size-paragraph{
+    font-size: 15px;
+}
+.width{
+    width: 40%;
+    text-align: left;
+}
+
+.job-apply-table{
+    margin: auto;
+    width: 70% !important;
+}
+.fields{
+    font-size: 14px;
+}

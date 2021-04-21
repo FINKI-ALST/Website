@@ -1,0 +1,26 @@
+.row {
+    margin-left: auto;
+    margin-right: auto;
+    zoom: 1;
+
+}
+
+.far{
+    height: 60px;
+}
+.heading{
+    font-size:1.3rem;
+    padding:50px;
+    font-family: -webkit-pictograph;
+    text-align: center;
+    height: 50px;
+}
+.col-md1{
+    padding:10px;
+    font-family: -webkit-pictograph;
+}
+
+
+
+
+
