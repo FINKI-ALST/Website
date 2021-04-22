@@ -10,6 +10,7 @@ import Footer from './components/Footer/Footer';
 import {Link} from 'react-router-dom';
 import {addResponseMessage, Widget, addLinkSnippet, addUserMessage} from 'react-chat-widget';
 import 'react-chat-widget/lib/styles.css';
+import Navbar from 'react-bootstrap/Navbar';
 class App extends Component {
   componentDidMount() {
     addResponseMessage("Send a message, and we’ll reply as soon as we can.");
@@ -21,34 +22,33 @@ class App extends Component {
     return (
       <HashRouter>
         <Header/>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light nav justify-content-center">
-              <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <Navbar sticky="top" className="navbar navbar-expand-lg navbar-light bg-light nav justify-content-center">
+          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
-              </button>
-              <div className="menu-main-menu-container">
-              <ul className="navbar-nav nav justify-content-center" style={{position: "sticky", top: "0px"}}>
-                  <li className="nav-item">
-                    <Link className="nav-link active" style={{paddingRight: "60px", fontFamily: "-webkit-pictograph"}} to={"/about"}>What we do</Link>
-                  </li>
-                  <li className="nav-item">
-                    <Link className="nav-link active" style={{paddingRight: "60px", fontFamily: "-webkit-pictograph"}} to={"/clients"}>Our clients</Link>
-                  </li>
-                  <li className="nav-item">
-                    <Link className="nav-link active" style={{paddingRight: "60px", fontFamily: "-webkit-pictograph"}} to={"/jobs"}>Jobs</Link>
-                  </li>
-                  <li className="nav-item">
-                    <Link className="nav-link active" style={{paddingRight: "60px", fontFamily: "-webkit-pictograph"}} to={"/contact"}>Contact</Link>
-                  </li>
-              </ul>
-                <div className="content">
-                  <Route path="/about" component={about}/>
-                  <Route path="/clients" component={clients}/>
-                  <Route path="/jobs" component={jobs}/>
-                  <Route path="/contact" component={contact}/>
-                </div>
-              </div>
-            </nav>
+          </button>
+          <div className="menu-main-menu-container">
+            <ul className="navbar-nav nav justify-content-center" style={{position: "sticky", top: "0px"}}>
+              <li className="nav-item">
+                <Link className="nav-link active" style={{paddingRight: "60px", fontFamily: "-webkit-pictograph"}} to={"/about"}>What we do</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link active" style={{paddingRight: "60px", fontFamily: "-webkit-pictograph"}} to={"/clients"}>Our clients</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link active" style={{paddingRight: "60px", fontFamily: "-webkit-pictograph"}} to={"/jobs"}>Jobs</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link active" style={{paddingRight: "60px", fontFamily: "-webkit-pictograph"}} to={"/contact"}>Contact</Link>
+              </li>
+            </ul>
+          </div>
+        </Navbar>
+        <div className="content">
+          <Route path="/about" component={about}/>
+          <Route path="/clients" component={clients}/>
+          <Route path="/jobs" component={jobs}/>
+          <Route path="/contact" component={contact}/>
+        </div>
         <Widget handleNewUserMessage={this.handleNewUserMessage}
                 title="Welcome!"
                 subtitle="How can we help you?"/>

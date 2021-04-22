@@ -45,9 +45,7 @@ class Jobs extends Component {
               </tr>
               <tr>
                 <td></td>
-                <tr>
-                  <td className="jobs-applynow"><p className="apply"><b><i>Apply Now</i></b></p></td>
-                </tr>
+                <td className="jobs-applynow"><p className="apply"><b><i>Apply Now</i></b></p></td>
               </tr>
               </tbody>
             </table>
