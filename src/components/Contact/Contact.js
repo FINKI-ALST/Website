@@ -7,29 +7,30 @@ class Contact extends Component {
           <div className="d-flex justify-content-center">
           <div className="row">
             <div className="col-md">
-              <h3 className="heading" style={{marginLeft:"-500px", fontSize: "40px"}}>
+              <h3 className="heading" style={{textAlign:"center", fontSize: "40px"}}>
                 Contact Us
               </h3>
+              <br></br>
               <br></br>
               <div className="row">
                 <div className="col-md">
                   <form className="contact-form">
                     <strong>
-                    <label htmlFor="name" style={{marginLeft:"-15px"}}>Name</label></strong>
+                    <label htmlFor="name">Name</label></strong>
                     <div className="row">
-                      <input type="text" id="fl-name" name="name" placeholder="Your name" style={{width: "-webkit-fill-available", height: "50px", border: "1px solid #bbb"}}/>
+                      <input type="text" id="fl-name" name="name" placeholder="Your name" style={{height: "50px", border: "1px solid #bbb"}}/>
                     </div>
                     <br></br>
                     <strong>
-                    <label htmlFor="email" style={{marginLeft:"-15px"}}>Email</label></strong>
+                    <label htmlFor="email">Email</label></strong>
                     <div className="row">
-                      <input type="email" id="fl-email" name="email" placeholder="Your email" style={{width: "-webkit-fill-available", height: "50px", border: "1px solid #bbb"}}/>
+                      <input type="email" id="fl-email" name="email" placeholder="Your email" style={{height: "50px", border: "1px solid #bbb"}}/>
                     </div>
                     <br></br>
                     <strong>
-                    <label htmlFor="message" style={{marginLeft:"-15px"}}>Your Message</label></strong>
+                    <label htmlFor="message">Your Message</label></strong>
                     <div className="row">
-                      <textarea id="message" name="message" placeholder="Your message" style={{width: "100%", height: "100%", border: "1px solid #bbb"}}/>
+                      <textarea id="message" name="message" placeholder="Your message" style={{height: "100%", border: "1px solid #bbb"}}/>
                     </div>
                     <br></br>
                     <div className="row">
@@ -37,8 +38,9 @@ class Contact extends Component {
                          aria-disabled="true">Send</a>
                     </div>
                   </form>
+                  <br></br>
                 </div>
-                <div className="col-md" style={{marginLeft: "20px"}}>
+                <div className="col-md">
                   <strong>Telephone</strong>
                   <br></br>
                   +389 2 3118 689
@@ -70,10 +72,13 @@ class Contact extends Component {
                     <i className="fa fa-facebook-square fa-2x"></i>
                   </a>
                 </div>
-                  <div className="col-6">
-                      <iframe
-                        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyD09zQ9PNDNNy9TadMuzRV_UsPUoWKntt8&amp;q=Shumadiska+6%2C+Skopje%2C+North+Macedonia"></iframe>
-                  </div>
+              </div>
+              <br></br>
+              <div className="row">
+                <div className="col-sm">
+                  <iframe
+                    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyD09zQ9PNDNNy9TadMuzRV_UsPUoWKntt8&amp;q=Shumadiska+6%2C+Skopje%2C+North+Macedonia"></iframe>
+                </div>
               </div>
             </div>
           </div>

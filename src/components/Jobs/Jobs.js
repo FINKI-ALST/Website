@@ -53,27 +53,27 @@ class Jobs extends Component {
             <table className="job-apply-table">
               <tbody>
               <tr><p className="fields">Fields marked with an asterisk (*) must be filled out before submitting.</p></tr>
-              <tr className="row1 totalrow1 field2 odd">
+              <tr className="row">
                 <th scope="row" className="width">Name *</th>
                 <td><input className="input" type="text" name="jobman-field-2" className="input"/></td>
               </tr>
               <br></br>
-              <tr className="row2 totalrow2 field3 even">
+              <tr className="row">
                 <th scope="row" className="width">Surname *</th>
                 <td><input className="input" type="text" name="jobman-field-3"/></td>
               </tr>
               <br></br>
-              <tr className="row3 totalrow3 field4 odd">
+              <tr className="row">
                 <th scope="row" className="width">Email Address *</th>
                 <td><input className="input" type="text" name="jobman-field-4"/></td>
               </tr>
               <br></br>
-              <tr className="row4 totalrow4 field7 even">
+              <tr className="row">
                 <th scope="row" className="width">Skype *</th>
                 <td><input className="input" type="text" name="jobman-field-7"/></td>
               </tr>
               <br></br>
-              <tr className="row5 totalrow5 field16 odd">
+              <tr className="row">
                 <th scope="row" className="width">Upload your CV</th>
                 <td><input type="file" name="jobman-field-16"/></td>
               </tr>
